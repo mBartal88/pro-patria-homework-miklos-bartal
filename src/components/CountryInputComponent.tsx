@@ -16,7 +16,7 @@ type OptionType = {
 }
 
 const CountryInputComponent = ({setCountry, setCountry2, setIsFirstInputActive, countryNameList }: PropsType) => {
-    console.log(countryNameList.length)
+
     const [selectedOptions1, setSelectedOptions1] = useState<SingleValue<OptionType>>();
     const [selectedOptions2, setSelectedOptions2] = useState<SingleValue<OptionType>>();
 
