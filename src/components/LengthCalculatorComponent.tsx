@@ -49,7 +49,7 @@ const LengthCalculatorComponent = ({ selectedCoordinateA, selectedCoordinateB } 
                 <p style={{textDecoration: "underline"}}>Coordinate B </p>
                 <p>Latitude: {lat2}</p>
                 <p>Longitude: {lng2}</p><br />
-                <p style={{color: "red"}}>Distance: {distance} km</p>
+                <p style={{color: "rgb(103, 0, 0)"}}>Distance: {distance} km</p>
             </>
 
             : null}
